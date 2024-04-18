@@ -1,1 +1,3 @@
 # starboard
+
+A configurable dashboard.
