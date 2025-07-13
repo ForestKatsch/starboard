@@ -139,12 +139,12 @@
     }
 
     .card:hover {
-      transform: scale(1.01);
+      /*transform: scale(1.01);*/
       cursor: pointer;
     }
 
     .card:active {
-      transform: scale(0.98);
+      transform: scale(0.97);
       opacity: 0.5;
       transition: 0.1s ease-in-out;
     }
@@ -381,22 +381,58 @@
           </header>
         -->
       <div class="grid">
-        <a href="http://jellyfin.ceres.home/" class="card card--primary">
+        <a href="http://jellyfin.fkats.ch/" class="card card--primary">
           <header>
             <div class="lockup">
               <h1>Jellyfin</h1>
               <h2>View and organize movies and TV shows</h2>
             </div>
+            <img src="./img/TV.svg" />
+          </header>
+        </a>
+        <a href="http://radarr.fkats.ch/" class="card card--primary">
+          <header>
+            <div class="lockup">
+              <h1>Radarr</h1>
+              <h2>Discover and acquire movies</h2>
+            </div>
+            <img src="./img/Film.svg" />
+          </header>
+        </a>
+        <a href="http://sonarr.fkats.ch/" class="card card--primary">
+          <header>
+            <div class="lockup">
+              <h1>Sonarr</h1>
+              <h2>Discover and acquire episodic content</h2>
+            </div>
             <img src="./img/Clapper.svg" />
           </header>
         </a>
-        <a href="http://deluge.ceres.home/" class="card">
+        <a href="http://deluge.fkats.ch/" class="card">
           <header>
             <div class="lockup">
               <h1>Deluge</h1>
               <h2>Monitor and update torrents</h2>
             </div>
             <img src="./img/Download.svg" />
+          </header>
+        </a>
+        <a href="http://calibre.fkats.ch/" class="card">
+          <header>
+            <div class="lockup">
+              <h1>Calibre</h1>
+              <h2>Manage and organize books</h2>
+            </div>
+            <img src="./img/Book.svg" />
+          </header>
+        </a>
+        <a href="http://readarr.fkats.ch/" class="card">
+          <header>
+            <div class="lockup">
+              <h1>Readarr</h1>
+              <h2>Discover books</h2>
+            </div>
+            <img src="./img/Bookmark.svg" />
           </header>
         </a>
       </div>
@@ -406,7 +442,7 @@
         <h1>Maintenance</h1>
       </header>
       <div class="grid">
-        <a href="http://setup.ceres.home/" class="card card--primary">
+        <a href="http://unraid.fkats.ch/" class="card card--primary">
           <header>
             <div class="lockup">
               <h1>Unraid</h1>
@@ -415,6 +451,7 @@
             <img src="./img/ServerRack.svg" />
           </header>
         </a>
+        <!--
         <a href="http://syncthing.ceres.home/" class="card card--primary">
           <header>
             <div class="lockup">
@@ -423,8 +460,8 @@
             </div>
             <img src="./img/Refresh.svg" />
           </header>
-        </a>
-        <a href="http://10.10.0.3/admin/" class="card card--primary">
+        </a>-->
+        <a href="http://pihole.fkats.ch/" class="card card--primary">
           <header>
             <div class="lockup">
               <h1>Pihole</h1>
@@ -433,7 +470,7 @@
             <img src="./img/StopExclamation.svg" />
           </header>
         </a>
-        <a href="http://setup.ceres.home/Docker" class="card">
+        <a href="http://unraid.fkats.ch/Docker" class="card">
           <header>
             <div class="lockup">
               <h1>Docker Containers</h1>
@@ -441,6 +478,7 @@
             <img src="./img/ExternalLink.svg" />
           </header>
         </a>
+        <!--
         <a href="http://10.1.0.100:81/" class="card">
           <header>
             <div class="lockup">
@@ -449,6 +487,7 @@
             <img src="./img/ExternalLink.svg" />
           </header>
         </a>
+        -->
       </div>
     </section>
   </main>
